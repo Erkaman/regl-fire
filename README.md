@@ -34,8 +34,3 @@ To then run the demo, do
 npm run start
 ```
 
-To run the test cases, do
-
-```bash
-npm run test
-```
