@@ -1,0 +1,40 @@
+{
+  "name": "regl-fire",
+  "version": "0.0.1",
+  "description": ":^)",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "budo --live --open fire.js",
+    "build": "browserify fire.js -t babelify > out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erkaman/regl-fire.git"
+  },
+  "keywords": [
+    "regl-fire",
+    "regl"
+  ],
+  "author": "Eric Arnebäck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Erkaman/regl-fire/issues"
+  },
+  "homepage": "https://github.com/Erkaman/regl-fire",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "budo": "^9.0.0",
+    "canvas-fit": "^1.5.0",
+    "gl": "^4.0.2",
+    "gl-vec3": "^1.0.3",
+    "ndpack-image": "^2.0.0",
+    "regl": "^1.2.0",
+    "regl-camera": "^1.0.0",
+    "regl-recorder": "^0.2.0",
+    "seedrandom": "^2.4.2",
+    "standard": "^8.0.0",
+    "uglifyjs": "^2.4.10"
+  }
+}
