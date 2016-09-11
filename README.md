@@ -24,6 +24,8 @@ about it [in this article](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch
 
 # Build
 
+First install all dependencies by doing
+
 ```bash
 npm install
 ```
